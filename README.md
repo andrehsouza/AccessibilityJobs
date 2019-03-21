@@ -1,2 +1,2 @@
-# AccessibilityJobs
-A sample iOS project to implement accessibility techniques.
+# ConcreteJobs
+An app to provide accessibility

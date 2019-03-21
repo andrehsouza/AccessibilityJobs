@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  Resources
+
+  Created by Renato Mendes on 11/19/18.
+  Copyright © 2018 Grupo Fleury. All rights reserved.
+*/
+
+// JOB LIST MODULE
+"jobListScreenTitle" = "Jobs";
+// ACCESSIBILITY
+"jobListLoading" = "Loading job list, please wait.";
+"jobListLoadingComplete" = "Job list loading complete.";
+"jobCellHint" = "Double tap for more details.";
+
+// JOB DETAIL MODULE
+"jobDetailScreenTitle" = "Job Detail";
+// ACCESSIBILITY
+"jobLocation" = "Location";

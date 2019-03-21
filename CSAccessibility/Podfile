@@ -1,0 +1,35 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '12.1'
+
+target 'CSAccessibility' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CSAccessibility
+  pod "SnapKit"
+  pod "Alamofire"
+  pod "SwiftGen", "~> 6.0"
+  
+
+  target 'CSAccessibilityTests' do
+    inherit! :search_paths
+    # Pods for testing
+    
+    pod "Quick"
+    pod "Nimble"
+    pod "Nimble-Snapshots"
+    pod "Mockingjay"
+    
+  end
+
+  target 'CSAccessibilityUITests' do
+    inherit! :search_paths
+    # Pods for testing
+    
+    pod "Quick"
+    pod "Nimble"
+    pod "Nimble-Snapshots"
+    
+  end
+
+end

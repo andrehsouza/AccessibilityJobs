@@ -1,0 +1,19 @@
+strings:
+  inputs: CSAccessibility/Resources/L10n/en.lproj/Localizable.strings
+  outputs:
+    templateName: structured-swift4
+    output: CSAccessibility/Resources/L10n/Strings.swift
+    params:
+      publicAccess: true
+      ignoreTargetModule: true
+      forceProvidesNamespaces: true
+
+xcassets:
+  inputs: CSAccessibility/Resources/Assets/Assets.xcassets
+  outputs:
+    templateName: swift4
+    output: CSAccessibility/Resources/Assets/Assets.swift
+    params:
+      publicAccess: true
+      ignoreTargetModule: true
+      forceProvidesNamespaces: true
