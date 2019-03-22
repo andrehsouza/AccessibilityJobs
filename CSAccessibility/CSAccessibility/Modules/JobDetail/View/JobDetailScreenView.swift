@@ -54,6 +54,9 @@ final class JobDetailScreen: UIView {
         label.textColor = .white
         label.font = .preferredFont(forTextStyle: .title1)
         label.adjustsFontForContentSizeCategory = true
+        
+        //Accessibility
+        label.accessibilityTraits = .staticText
         return label
     }()
     
@@ -65,6 +68,10 @@ final class JobDetailScreen: UIView {
         label.textColor = .white
         label.font = .preferredFont(forTextStyle: .title3)
         label.adjustsFontForContentSizeCategory = true
+        
+        //Accessibility
+        label.accessibilityLanguage = "pt_BR"
+        label.accessibilityTraits = .staticText
         return label
     }()
     
@@ -81,6 +88,10 @@ final class JobDetailScreen: UIView {
         label.numberOfLines = 0
         label.font = .preferredFont(forTextStyle: .body)
         label.adjustsFontForContentSizeCategory = true
+        
+        //Accessibility
+        label.accessibilityLanguage = "pt_BR"
+        label.accessibilityTraits = .staticText
         return label
     }()
     
