@@ -113,7 +113,7 @@ extension JobCell {
     // Accessibility
     private func applyAccessibility(with job: JobModel){
         isAccessibilityElement = true
-        accessibilityTraits = [.button, .staticText]
+        accessibilityTraits = .button
         accessibilityLabel = "\(job.title). \(L10n.jobLocation): \(job.location)"
         accessibilityHint = L10n.jobCellHint
     }
